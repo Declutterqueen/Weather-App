@@ -287,20 +287,18 @@
     display: none; /* Hide background particles on small screens for clarity */
   }
 }
-
-/* === DARK MODE TOGGLE (Outside Weather Card) === */
+/* === DARK MODE TOGGLE (Bottom-Right Corner) === */
 .theme-toggle {
   position: fixed;
-  bottom: 7rem;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 8px 18px;
+  bottom: 25px;
+  right: 25px;
+  padding: 8px 16px;
   background: linear-gradient(135deg, #ff7e5f, #feb47b);
   border: none;
   border-radius: 25px;
   color: #fff;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   cursor: pointer;
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
   transition: all 0.3s ease;
@@ -308,12 +306,12 @@
 }
 
 .theme-toggle:hover {
-  transform: translateX(-50%) scale(1.08);
+  transform: scale(1.08);
   background: linear-gradient(135deg, #36D1DC, #5B86E5);
   box-shadow: 0 6px 20px rgba(0,0,0,0.4);
 }
 
-/* === DARK MODE STYLES === */
+/* === DARK MODE === */
 body.dark-mode {
   background: linear-gradient(135deg, #1e1e2f, #2b5876);
   color: #e0e0e0;
@@ -337,6 +335,7 @@ body.dark-mode .theme-toggle {
   background: linear-gradient(135deg, #6a11cb, #2575fc);
   box-shadow: 0 4px 15px rgba(0,0,0,0.6);
 }
+
 
 </style>
 </head>
