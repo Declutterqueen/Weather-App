@@ -27,8 +27,8 @@ Mehreen Khalid
 ## 💻 How to Use
 1. Clone the repository:
 
+  ```bash
+git clone https://github.com/DeclutterQueen/Weather-App.git 
    
-   ```bash
-git clone https://github.com/DeclutterQueen/Weather-App.git
 
 
