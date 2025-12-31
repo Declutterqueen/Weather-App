@@ -30,5 +30,3 @@ Mehreen Khalid
 git clone https://github.com/DeclutterQueen/Weather-App.git
 
 
-```bash
-git clone https://github.com/DeclutterQueen/Weather-App.git
